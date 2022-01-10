@@ -1,3 +1,4 @@
-build:
-  docker:
-    web: Dockerfile
+services:
+  codeserver:
+    build: .
+    shm_size: 2.6gb
